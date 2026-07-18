@@ -47,7 +47,3 @@ def search_notes(keyword):
             #or even results = [note for note in notes if keyword.lower() in note['title'] or keyword.lower() in note['content']]
             results.append(note)
     return results
-
-
-        
-
